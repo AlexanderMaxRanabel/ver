@@ -1,14 +1,14 @@
 use colored::*;
 use std::process::Command;
 
-mod various;
-
-use various::kill;
+fn kill(argument_name: &str, error_message: &str) {
+    println!("{}: {} {}", "Error".red(), error_message, argument_name.cyan());
+}
 
 pub fn cargo(main_argument: &str) {
     match main_argument {
         _ => {
-            various::kill(&main_argument, "Unknown Command");
+            kill(&main_argument, "Unknown Command");
             std::process::exit(1);
         },
     }
