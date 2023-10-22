@@ -1,1 +1,0 @@
-C:\Users\User\Desktop\monobox\ver\target\release\ver.exe: C:\Users\User\Desktop\monobox\ver\src\cargo.rs C:\Users\User\Desktop\monobox\ver\src\git.rs C:\Users\User\Desktop\monobox\ver\src\main.rs C:\Users\User\Desktop\monobox\ver\src\various.rs
